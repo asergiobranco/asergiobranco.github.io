@@ -29,7 +29,8 @@ h2.keySetence{font-size: 26px;}
 h1.keySetence, h2.keySetence{width: 50%; text-align: center; display: inline-block; color: white; font-family: "Arial Black", Gadget, sans-serif; padding: 0; margin: 0;}
 div.wrapper-main
 {
-    background: url("http://www.Illustrious-iot.com/public_images/back.jpeg") no-repeat;
+    background: #040404;
+    color: lime;
     background-size: cover;
     overflow: hidden !important;
 }
