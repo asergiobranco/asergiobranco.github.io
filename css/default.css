@@ -20,20 +20,13 @@ div.logo{width: 28%; padding: 0 1% 0 1%;}
 img.logo{height: 7vh; margin-top: 1vh;}
 div.links{width: 68%; display: table;}
 div.link{display: table-cell; height: inherit; vertical-align: middle; text-align: center;}
-
 div.wrapper-main{z-index: 1;width: 100%;height: 100vh; overflow: hidden;}
 div.wrapper{z-index: 1;width: 100%;min-height: 100vh; overflow-y: auto; overflow-x: hidden; text-align: center;}
 div.keySetence{width: 100vw; height: inherit; display: table-cell; vertical-align: middle; text-align: center;}
 h1.keySetence{font-size: 86px; }
 h2.keySetence{font-size: 26px;}
 h1.keySetence, h2.keySetence{width: 50%; text-align: center; display: inline-block; color: white; font-family: "Arial Black", Gadget, sans-serif; padding: 0; margin: 0;}
-div.wrapper-main
-{
-    background: #040404;
-    color: lime;
-    background-size: cover;
-    overflow: hidden !important;
-}
+div.wrapper-main{background: #040404;color: lime;background-size: cover;overflow: hidden !important;}
 div.div-text{width: 50%; margin-top: 4vh; text-align: justify; color: #808080; display: inline-block;}
 div.separator{height: 20vh; background: #3f3f3f;}
 div.div-title{width: 100vw; padding-top: 18vh; text-align: center; border-bottom: 0.1px solid #fdfdfd;}
@@ -48,6 +41,20 @@ div.service-name{width: 80%; font-size: 26px; color: #3cf; display: inline-block
 div.contact{width: 30%; text-align: center; display: inline-block; margin: 30 0 30 0;}
 img.contact{width: 20%; display: inline-block;}
 p.contact{color: #d0d0d0;}
+@keyframes type{
+  from { width: 0; }
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+p.term-animation{animation:  type 4s steps(60, end)}
 footer
 {
   width: 100%;
