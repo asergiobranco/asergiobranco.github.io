@@ -56,6 +56,9 @@ p.contact{color: #d0d0d0;}
 }
 div.term-animation{width: 90%; margin: 14vh 5% 0 5%; font-family: "Lucida Console"}
 p.term-animation{animation:  type2 4s steps(60, end); white-space: nowrap; overflow: hidden;}
+span.blink{
+  animation: blink 1s infinite;
+}
 footer
 {
   width: 100%;
