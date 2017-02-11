@@ -54,7 +54,7 @@ p.contact{color: #d0d0d0;}
 @keyframes blink{
   to{opacity: .0;}
 }
-div.term-animation{width: 90%; margin: 14vh 5% 0 5%;}
+div.term-animation{width: 90%; margin: 14vh 5% 0 5%; font-family: "Lucida Console"}
 p.term-animation{animation:  type 4s steps(60, end); white-space: nowrap; overflow: hidden;}
 footer
 {
